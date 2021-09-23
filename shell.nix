@@ -3,7 +3,7 @@
 let
   mach-nix = import (builtins.fetchGit {
     url = “https://github.com/DavHau/mach-nix”;
-#url = “https://github.com downloads/kohsuke/com4j/com4j-20120426-2.zip”
+url = “https://github.com/kohsuke/com4j”;
     ref = “refs/tags/3.3.0”;
   }) { };
 
