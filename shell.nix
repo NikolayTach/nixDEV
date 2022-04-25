@@ -1,4 +1,4 @@
-{ pkgs ? import <nixpkgs> { } }:
+{ pkgs,...}:
 
 let
   mach-nix = import (builtins.fetchGit {
@@ -9,7 +9,6 @@ let
 
 in pkgs.mkShell {
   buildInputs = [ (mach-nix.mkPython {
-W
-    packagesExtra = [ ./. ];
+    packagesExtra = [ etc/rev/nix/349348fd1958398bdfed1421255324512425/ ];
   }) ];
 }
