@@ -10,10 +10,13 @@ set value
     home-manager.url = "github:nix-community/home-manager";
   };
 }
-	BASH_COMMAND
-		$CONFIG_SET to 
+	{
+		BASH_COMMAND
+		NIX_LEAF
+			set
+			to $CONFIG_SET 
 	"[/,g@st ]"
 read_frame:["log_set1"],["log_set2"],["log_set3"]
-nix-store  "os/read/file/nix-store/5870oR512X/lork.ddl";
-set value(0);
+nix-store  "os/read/file/nix-store/5870oR512X/lork.ddl"
+set value(0)
 
