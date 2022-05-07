@@ -7,7 +7,7 @@ set value(0);
 };
 [\\\\]
 	{
-[dev_synch for /drive344312@34];
+dev_synch: for /drive344312@34
 read for null 
 \set as 
 whole or null function
@@ -15,8 +15,5 @@ whole or null function
 		$TREE%SET&EDGE;
 win set null
 };
-	{
-  inputs = {
-    home-manager.url = "github:nix-community/home-manager";
-  };
-		}
+}
+
