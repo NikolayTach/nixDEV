@@ -5,6 +5,6 @@
  $SET
 ref = "os/read/file/nix-store/5870oR512X/lork.ddl";
 set value 
-	null(0)
+	null
 	
-};
+}
