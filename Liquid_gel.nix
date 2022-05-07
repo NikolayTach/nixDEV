@@ -16,5 +16,4 @@ set value
 		    ["log_set3"]
 nix-store = "os/read/file/nix-store/5870oR512X/lork.ddl"
 set value(0)
-	}
-
+	};
