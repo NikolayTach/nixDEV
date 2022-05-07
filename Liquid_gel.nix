@@ -15,5 +15,5 @@ set value
 	            ["log_set2"]
 		    ["log_set3"]
 set value(0)
-	
+;	
 }
