@@ -12,7 +12,6 @@ set value
 }
 	{
 		BASH_COMMAND
-		NIX_LEAF
 			set
 			to $CONFIG_SET 
 	"[/,g@st ]"
